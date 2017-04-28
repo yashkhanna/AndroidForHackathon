@@ -4,73 +4,60 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal">
 
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_weight="1"
-        android:background="#000000"
-        android:gravity="center"
-        
-        android:textColor="#FFFFFF" />
+    <include layout="@layout/chess_block" />
 
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_weight="1"
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#000000" />
 
-        android:gravity="center"
-          />
+    <include layout="@layout/chess_block" />
 
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_weight="1"
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#000000" />
 
-        android:background="#000000"
-        android:gravity="center"
-         
-        android:textColor="#FFFFFF" />
+    <include layout="@layout/chess_block" />
 
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_weight="1"
-        android:gravity="center"
-          />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#000000" />
 
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_weight="1"
-        android:background="#000000"
-        android:gravity="center"
-         
-        android:textColor="#FFFFFF" />
+    <include layout="@layout/chess_block" />
 
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_weight="1"
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#000000" />
 
-        android:gravity="center"
-          />
+    <include layout="@layout/chess_block" />
 
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_weight="1"
-        android:background="#000000"
-        android:gravity="center"
-         
-        android:textColor="#FFFFFF" />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#000000" />
 
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="50dp"
+    <include layout="@layout/chess_block" />
 
-        android:layout_weight="1"
-        android:gravity="center"
-          />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#000000" />
 
+    <include layout="@layout/chess_block" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#000000" />
+
+    <include layout="@layout/chess_block" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#000000" />
 
 </LinearLayout>

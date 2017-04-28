@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">HoneyBooBoo</string>
+    <string name="app_name">Hackathon</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
-
+    <string name="nav_classic">Classic</string>
+    <string name="nav_timeout">Timeout</string>
+    <string name="nav_settings">Settings</string>
 </resources>
