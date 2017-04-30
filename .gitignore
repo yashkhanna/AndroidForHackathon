@@ -1,0 +1,7 @@
+.gradle/
+.idea/
+MyTestApplication.iml
+app/app.iml
+build/
+local.properties
+
