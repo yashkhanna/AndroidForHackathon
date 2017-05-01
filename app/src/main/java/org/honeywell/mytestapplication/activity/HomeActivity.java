@@ -117,6 +117,13 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     }
 
     @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        MenuItem menuItem = menu.findItem(R.id.action_settings);
+        menuItem.setVisible(CURRENT_FRAGMENT.equals(SETTINGS_FRAGMENT));
+        return super.onPrepareOptionsMenu(menu);
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
@@ -196,5 +203,6 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.content_frame, fragment, CURRENT_FRAGMENT).commit();
+        invalidateOptionsMenu();
     }
 }
